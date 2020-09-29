@@ -1,11 +1,8 @@
-import React, { useEffect } from 'react';
-// import PropTypes from 'prop-types';
-import NavBar from '../../container/NavBar/navbar';
+import React from 'react';
+import NavBar from '../../container/navBar/navbar';
 import Page from '../../container/page/page';
 
 import './App.scss';
-
-// useEffect(translation, [])
 
 function App() {
   return (
@@ -15,8 +12,4 @@ function App() {
     </div>
   );
 }
-App.propTypes = {
-
-};
-
 export default App;
