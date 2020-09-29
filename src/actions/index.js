@@ -5,7 +5,6 @@ export const FETCH_LANG = 'FETCH_LANG';
 export const CHANGE_LANG = 'CHANGE_LANG';
 
 //ACTIONS CREATORS
-
 export const fetchTextHome = () => ({
   type: FETCH_TEXT_HOME,
 })
