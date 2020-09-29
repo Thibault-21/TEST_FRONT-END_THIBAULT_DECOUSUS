@@ -6,14 +6,8 @@ import { Link } from 'react-router-dom';
 
 const NavBar = ({
   languages,
-  // titles,
   selectedOnLanguage 
-}) => {
-  console.log('languages', languages)
-  // console.log('languagesLang', languagesLang)
-  console.log('languagesSelected', selectedOnLanguage)
-
-  return (
+}) => (
     <Navbar bg="primary" variant="dark">        
         <Nav className="mr-auto">
         <Nav.Link as={Link} to="/home"> Accueil </Nav.Link>    
@@ -34,7 +28,7 @@ const NavBar = ({
         </Nav>
     </Navbar>
   );
-}
+  
 NavBar.propTypes = {
   languages: PropTypes.arrayOf(
       PropTypes.shape({
