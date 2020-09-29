@@ -6,6 +6,7 @@ const Home = ({ text }) => (
     <h1>{text}</h1>
   </div>
 );
+
 Home.propTypes = {
   text: PropTypes.string.isRequired,
 };
