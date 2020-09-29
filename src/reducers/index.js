@@ -22,11 +22,12 @@ const initialState = {
 };
 
 /**
+* personal doc JS
 * @function reducer
 * @param {state} state courant ou a default un objet comme state = initalState
 * @param {action} action en fonction de cette action, on va pouvoir changer le state
 * @return toujours un state
-* Switch permet de changer le state en fonction du type d'actions
+* 
 */
 const reducer = (state = initialState, action) => {
   switch (action.type) {
